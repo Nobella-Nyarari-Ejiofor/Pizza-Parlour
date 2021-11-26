@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+div{
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.header{
+  background-image: url(../assets/extra-cheese.jpg);
+  height: 200px;
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+  font-family: 'Hachi Maru Pop', cursive;
+}
+.menu a{
+  margin-left: 200px;
+  margin-top: 20px;
+  float: left;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Hachi Maru Pop', cursive;
+}
+.menu a:hover{
+  background-color: rgb(190, 110, 18);
+  color: black;
+}
