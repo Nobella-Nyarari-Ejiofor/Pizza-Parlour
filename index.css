@@ -25,12 +25,7 @@ div{
   background-color: rgb(190, 110, 18);
   color: black;
 }
-/* clear float after the menu */
-/* div::after{
-  content: "";
-  display: table;
-  clear: both;
-} */
+
 .section-heading h2{
   color: black;
   padding: 40px;
@@ -39,7 +34,7 @@ div{
   font-weight: bolder;
 }
 .order-here{
-  background-image: url(../assets/pizza-form-bg.jpeg);
+  background-image: url("./imagess/pizza-form-bg.jpeg");
 }
 .col-md-4{
   border-radius: 10%;
