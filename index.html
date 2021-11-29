@@ -63,7 +63,7 @@
           </div>
           <div class="col-md-4 clearfix d-none d-md-block">
             <div class="card mb-2">
-              <img class="card-img-top" src="/imagess/hawaiian.jpeg" alt="Card image cap">
+              <img class="card-img-top" src="./imagess/hawaiian.jpeg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Vegan-master</h5>
               </div>
@@ -76,7 +76,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-2">
-              <img class="card-img-top" src=".imagess/extra-cheese.jpg" alt="Card image cap">
+              <img class="card-img-top" src="./imagess/extra-cheese.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Beef pizza extra-cheese</h5>
               </div>
@@ -84,7 +84,7 @@
           </div>
           <div class="col-md-4 clearfix d-none d-md-block">
             <div class="card mb-2">
-              <img class="card-img-top" src=".imagess/hawaiian1.jpg" alt="Card image cap">
+              <img class="card-img-top" src="./imagess/hawaiian1.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Hawaiian Pizza</h5>
               </div>
@@ -92,7 +92,7 @@
           </div>
           <div class="col-md-4 clearfix d-none d-md-block">
             <div class="card mb-2">
-              <img class="card-img-top" src="assets/beef-pepper onion pizza.jpeg" alt="Card image cap">
+              <img class="card-img-top" src="./imagess/onion pizza.jpeg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title"> Beef Pepper Onion Pizza</h5>
               </div>
@@ -176,3 +176,110 @@
 
             </form>
           </form>
+        </div>
+        <div class="col-md-5" id="cart">
+          <div class="card" id="cart-table">
+            <div class="card-body">
+              <h5 id="cart-heading">My Cart <span id="total-grand-cost"> Ksh </span></h5>
+              <table class="table">
+                <thread>
+                  <tr>
+                    
+                    <th scope="col">Type</th>
+                    <th scope="col">Size</th>
+                    <th scope="col">Crust</th>
+                    <th scope="col">Toppings</th>
+                    <th scope="col">Price</th>
+                  </tr>
+                </thread>
+                <tbody id="cart-items">
+                  <tr>
+                    
+                    <td id="pizza-name"></td>
+                    <td id="pizza-size"></td>
+                    <td id="pizza-crust"></td>
+                    <td id="pizza-topping"></td>
+                    <td id="pizza-price"></td>
+                  </tr>                               
+                </tbody>
+              </table>
+              <p id="pizzatotal"></p>
+              <p id="addedprice">Delivery will cost sh. 250</p>
+              <!-- <p id="totalbill"></p>
+              <p id="finallmessage"></p> -->
+            </div>          
+          </div>
+          <button class="btn btn-success" id = "addPizza">Add Pizza</button>
+          <button class="btn btn-primary" id="checkout">Checkout</button>
+          <button class="btn btn-warning" id = "deliver">Home delivery?</button>
+          <button class="btn btn-default" id="pick-up">Pick Up</button>
+          <p id="addedprice">Delivery will cost sh. 250</p>
+          <div class="delivery">
+            <form action="">
+              <div class="form-group">
+                <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                <button class="btn btn-success" id="final-order">Place Order</button>
+              </div>
+            </form>
+        </div>
+        <div class="card" id="receipt">
+          <div class="card-body">
+            <h4 id="customer-invoice">Here is your Receipt</h4>
+            <h5 id="location">Delivery Address: <span class="delivery-address"></span></h5>
+            <h5 id="full-cart">Total Order: <span class="total-order"></span></h5>
+            <h5 >Delivery Cost : <span id="total-delivery">250</span> </h5>
+            <h2 id="total-price">Total : <span id="total-cost"></span></h2>
+            <p id="final-message"></p>
+          </div>
+          <p class="final-msg-deliv"></p>
+        </div>
+        </div>
+        <div class="col-md-5" id="final-display">
+          <p id="final-msg"></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-default" id="contact">
+    <div class="section-heading"> 
+        <h2>Contact Us</h2>
+      </div>
+      <hr>
+    <div class="row" id="contactdetails">
+      <div class="col-md-1">
+         
+      </div>
+      <div class="col-md-3 text-justify">
+        <h2>Location</h2>
+        <p>Pizza Parlour</p>
+        <p>West Gate Mall | Westlands</p>
+        <p>20100,Nairobi </p>
+      </div>
+      <div class="col-md-3">
+        <h2>Customer Care</h2>
+         <p>nobellanyarari@gmail.com</p>
+         <p>Tell: 02002309421</p> 
+         <p>Phone: +254741776366</p>
+      </div>
+      <div class="col-md-4">
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.857841893923!2d36.801018714458735!3d-1.2572266990830068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f176d5245a81d%3A0x6980c9c6d698d244!2sWestgate%20Shopping%20Mall!5e0!3m2!1sen!2ske!4v1615276949972!5m2!1sen!2ske" width="350" height="180" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <style>.mapouter{position:relative;text-align:right;height:180px;width:350px;}.gmap_canvas {overflow:hidden;background:none!important;height:180px;width:350px;}</style>
+          </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="row">
+      <div class="container text-center footer">
+        <p>&copy; 2021 | Pizza Parlour</p>
+      </div>
+    </div>
+</div>
+
+</body>
+</html>
