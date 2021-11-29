@@ -4,7 +4,7 @@ div{
   box-sizing: border-box;
 }
 .header{
-  background-image: url(./imagess/extra-cheese.jpg);
+  background-image: url(../assets/extra-cheese.jpg);
   height: 200px;
   text-align: center;
   padding-top: 50px;
@@ -24,4 +24,116 @@ div{
 .menu a:hover{
   background-color: rgb(190, 110, 18);
   color: black;
+}
+/* clear float after the menu */
+/* div::after{
+  content: "";
+  display: table;
+  clear: both;
+} */
+.section-heading h2{
+  color: black;
+  padding: 40px;
+  padding-bottom: 20px;
+  font-family: 'Hachi Maru Pop', cursive;
+  font-weight: bolder;
+}
+.order-here{
+  background-image: url(../assets/pizza-form-bg.jpeg);
+}
+.col-md-4{
+  border-radius: 10%;
+  padding: 10px;
+}
+.col-md-6{
+  border: 2px solid black;
+  height: 60px;
+}
+#toppings-price{
+  padding: 5px;
+  background-color: rgb(190, 110, 18);
+  border: 1px solid black;
+  color: black;
+}
+#proceed-btn{
+  margin-top: 20px;
+  margin-left: 15px;
+  background-color: rgb(190, 110, 18);
+}
+#proceed-btn:hover{
+  transform: scale(1.5);
+  /* padding-left: 10px; */
+}
+#form-error{
+  display: none;
+  color: red;
+  font-weight: bolder;
+}
+#col-form{
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.692);
+  color: rgb(148, 146, 146);
+}
+#cart{
+  background-color: white;
+  margin: 45px;
+  border-radius: 20px;
+
+}
+.table{
+  width: auto;
+}
+#cart-heading{
+  background-color: rgb(190, 110, 18);
+  padding: 20px;
+}
+#total-cost{
+  float: right;
+}
+#cart{
+  display: none;
+}
+#total-cost{
+  display: none;
+}
+#addedprice{
+  display: none;
+}
+.delivery{
+  display: none;
+}
+#deliver{
+  display: none;
+}
+#pick-up{
+  display: none;
+}
+#receipt{
+  display: none;
+}
+#total-price{
+  display: block;
+  background-color: rgb(74, 236, 74);
+  color: black;
+}
+#customer-invoice{
+  display: block;
+  background-color: rgb(173, 109, 35);
+  color: black;
+}
+.card-body span{
+  float: right;
+  color: black;
+  overflow: hidden;
+}
+#final-display{
+  display: none;
+  font-family: 'Hachi Maru Pop', cursive;
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(250, 246, 241);
+  text-align: center;
+  background-color: rgba(20, 18, 18, 0.349);
+  margin-left: 30px;
+  padding: 30px;
 }
