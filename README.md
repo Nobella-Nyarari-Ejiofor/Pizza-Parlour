@@ -37,7 +37,8 @@ GitHub Pages is designed to host your personal, organization, or project pages f
 * The user shuld be able to choose the pizza they like.
 * The user should be able to add toppings of their choice.
 * The user should be able to select the crust of their choice.
-* On clicking the submit button there should be different alerts. For example an alert if the user does not input their name and email address, an alert for when they innput an email address and name  without a message and an inout for when they input their name , email address and a message for the team.
+* The user should be able to see their total payments which include crusts , toppings and their type of pizza .
+* On clicking the checkout button the user should be able t see their total cost including transportation costs.
 
 ## Credits
  Many thanks to [w3schools](https://www.w3schools.com/) documentation and [freecodecamp](https://www.freecodecamp.org/) for putting up resources online. I have found the resources to be very efficient when conceptualizing this project.
