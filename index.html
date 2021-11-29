@@ -4,33 +4,60 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Minified CSS Link -->
+  <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-  <!-- jQuery library link -->
+  <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- Popper JS -->
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  
-  <!--Link to the css file  -->
-  <link rel="stylesheet" href="index.css">
 
-  <!-- link to JavaScript -->
+  <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  
-  <!-- link to Javascript -->
+    
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
   <title>Pizza Parlour</title>
 </head>
 <body>
-    <div class="header">
-       <h1 id="heading">Pizza Parlour</h1>
-    </div>
-    <div class="menu">
-       <a href="#multi-item-carousel">Menu</a>
-       <a href="#order-here">Order</a>
-       <a href="#contact">Contact Us</a>
-    </div>
-</body>  
+  <div class="header">
+    <h1 id="heading">Pizza Parlour</h1>
+  </div>
+  <div class="menu">
+    <a href="#multi-item-carousel">Menu</a>
+    <a href="#order-here">Order</a>
+    <a href="#contact">Contact Us</a>
+  </div>
+  <div class="section-heading">
+    <h2>Our Varieties</h2>
+  </div>
+  <div id="multi-item-carousel" class="carousel slide carousel-multi-item" data-ride ="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#multi-item-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#multi-item-carousel" data-slide-to="1"></li>
+      <li data-target="#multi-item-carousel" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-2">
+              <img class="card-img-top" src="assets/periperi.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Chicken PeriPeri</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 clearfix d-none d-md-block">
+            <div class="card mb-2">
+              <img class="card-img-top" src="assets/beef-pizza.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Meat Deluxe</h5>
+              </div>
+            </div>
+          </div>
