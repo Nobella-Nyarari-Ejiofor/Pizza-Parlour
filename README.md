@@ -35,6 +35,8 @@ GitHub Pages is designed to host your personal, organization, or project pages f
 * The project has 4 files .Index.html , index.css , index.js , images and script.js .
 * On clicking the nav bar icons, the user can access the different sections.
 * The user shuld be able to choose the pizza they like.
+* The user should be able to add toppings of their choice.
+* The user should be able to select the crust of their choice.
 * On clicking the submit button there should be different alerts. For example an alert if the user does not input their name and email address, an alert for when they innput an email address and name  without a message and an inout for when they input their name , email address and a message for the team.
 
 ## Credits
