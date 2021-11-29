@@ -47,7 +47,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-2">
-              <img class="card-img-top" src="assets/periperi.jpg" alt="Card image cap">
+              <img class="card-img-top" src="./imagess/periperi.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Chicken PeriPeri</h5>
               </div>
@@ -55,7 +55,7 @@
           </div>
           <div class="col-md-4 clearfix d-none d-md-block">
             <div class="card mb-2">
-              <img class="card-img-top" src="assets/beef-pizza.jpg" alt="Card image cap">
+              <img class="card-img-top" src="./imagess/beef-pizza (1).jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Meat Deluxe</h5>
               </div>
@@ -63,7 +63,7 @@
           </div>
           <div class="col-md-4 clearfix d-none d-md-block">
             <div class="card mb-2">
-              <img class="card-img-top" src="assets/tomato-mushroom.jpg" alt="Card image cap">
+              <img class="card-img-top" src="/imagess/hawaiian.jpeg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Vegan-master</h5>
               </div>
@@ -76,7 +76,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-2">
-              <img class="card-img-top" src="assets/extra-cheese.jpg" alt="Card image cap">
+              <img class="card-img-top" src=".imagess/extra-cheese.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Beef pizza extra-cheese</h5>
               </div>
@@ -84,9 +84,95 @@
           </div>
           <div class="col-md-4 clearfix d-none d-md-block">
             <div class="card mb-2">
-              <img class="card-img-top" src="assets/hawaiian1.jpg" alt="Card image cap">
+              <img class="card-img-top" src=".imagess/hawaiian1.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Hawaiian Pizza</h5>
               </div>
             </div>
           </div>
+          <div class="col-md-4 clearfix d-none d-md-block">
+            <div class="card mb-2">
+              <img class="card-img-top" src="assets/beef-pepper onion pizza.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title"> Beef Pepper Onion Pizza</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <hr>
+  
+  <div class="flex-box">
+    <div class="section-heading">
+      <h2>Order Here</h2>
+    </div>
+    <hr>
+    <div class="order-here" id="order-here">
+      <div class="row">
+        <div class="col-md-5" id="col-form">
+          <form>
+            <label for="select">What's your desirable flavour</label>
+            <select class="browser-default custom-select custom-select-md mb-3 name" id="type">
+              <option value="chicken-periperi">Chicken PeriPeri</option>
+              <option value="meat-deluxe">Meat Deluxe Pizza</option>
+              <option value="vegan-master">Vegan-master Pizza</option>
+              <option value="beef-pizza">Beef pizza </option>
+              <option value="meat-deluxe">Hawaiian Pizza</option>
+              <option value="meat-deluxe">Beef Pepper Onion Pizza</option>
+              <option value="meat-deluxe">Muchato Mexican Pizza</option>
+              <option value="meat-deluxe">Chichen slice Pizza</option>
+            </select>
+            <label for="select">What's your prefered size</label>
+            <select class="browser-default custom-select custom-select-md mb-3" id="size">
+              <option selected value="0">Select size</option>
+              <option value="large">Large -- Ksh 1200</option>
+              <option value="medium">Medium -- Ksh 900</option>
+              <option value="small">Small -- Ksh 600</option>
+            </select>
+            <label for="crust">Prefered crust type</label>
+            <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+              <option value="0">What's your crust of choise</option>
+              <option value="crispy">Crispy -- Ksh 100</option>
+              <option value="stuffed">Stuffed -- Ksh 200</option>
+              <option value="gluten-free">Gluten-free -- Ksh 300</option>
+            </select>
+            <label for="toppings"> Select the toppings you would like</label>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="extra-cheese" value="extra-cheese" name="toppings">
+                  <label class="custom-control-label" for="extra-cheese">Extra Cheese - <span id="toppings-price">  150</span></label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="tuna-salad" value="tuna-salad" name="toppings">
+                  <label class="custom-control-label" for="tuna-salad">Tuna Salad - <span id="toppings-price">  150</span></label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="mild-cheese" value="mild-cheese" name="toppings">
+                  <label class="custom-control-label" for="mild-cheese">Mild Cheese - <span id="toppings-price">150</span></label>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="extra-sause" value="extra-sause" name="toppings">
+                  <label class="custom-control-label" for="extra-sause">Extra Sause - <span id="toppings-price">  150</span></label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="spicy-toppings" value="spicy-toppings" name="toppings">
+                  <label class="custom-control-label" for="spicy-toppings">Spicy toppings -
+                    <span id="toppings-price">150</span></label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="mushrooms" value="mushrooms" name="toppings">
+                  <label class="custom-control-label" for="mushrooms">Mushrooms  - <span id="toppings-price">  150</span></label>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn" id="proceed-btn">Proceed</button>
+            <div id="form-error">Please fill out all the fields to proceed</div>
+
+            </form>
+          </form>
